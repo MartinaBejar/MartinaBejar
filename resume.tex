@@ -1,0 +1,41 @@
+\documentclass[a4paper,skipsamekey,11pt,english]{curve}
+\PassOptionsToPackage{style=ieee,sorting=ydnt,uniquename=init,defernumbers=true}{biblatex}
+\usepackage{settings}
+\DefineBibliographyStrings{english}{url={\textsc{url}}}
+
+\usepackage[T1]{fontenc}
+\usepackage[p,osf,swashQ]{cochineal}
+\usepackage{cabin}
+\usepackage[varqu,varl,scale=0.9]{zi4}
+
+\includecomment{fullonly}
+% \excludecomment{fullonly} // uncomment to hide profile picture
+
+\leftheader{
+  {\LARGE\bfseries\sffamily Martina Bejar, Quality Assurance Tester}
+
+    \vspace{5mm}
+
+    \makefield{\faEnvelope[regular]}{\href{mailto:martinabejar.26@gmail.com}{\texttt{martinabejar.26@gmail.com}}}
+  
+  \makefield{\faLinkedin}  {\href{http://www.linkedin.com/in/martina-bejar/}{\texttt{Martina Bejar @ LinkedIn}}}
+
+  \makefield{\faGlobe}{\href{https://github.com/MartinaBejar/}{\texttt{MartinaBejar @ GitHub}}}
+
+}
+
+\rightheader{~}
+\begin{fullonly}
+\photo[r]{photo}
+\photoscale{0.13}
+\end{fullonly}
+
+\title{Curriculum Vitae}
+
+\begin{document}
+\makeheaders[c]
+\makerubric{skills}
+\makerubric{education}
+\makerubric{trainings}
+
+\end{document}
